@@ -61,7 +61,7 @@ width: 300px;
     max-height: 10px; 
     max-width: 10px;
 }
-#carouselButtons {
+#carousel-button {
     right:0px;
     position: absolute;
     bottom: 0px;
