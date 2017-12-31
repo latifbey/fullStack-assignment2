@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/bootstrap-social.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
@@ -199,7 +199,7 @@
     <div class="container">
         <div class="row row-content">
             <div class="col">
-                <div id="mycarousel" class="carousel slide" data-ride="carousel">
+                <div id="mycarousel" class="carousel slide" >
                     <div class="carousel-inner" role="listbox">
                         <div class="carousel-item active">
                             <img class="d-block img-fluid" src="img/img/uthappizza.png" alt="Uthappizza">
@@ -385,10 +385,15 @@
     <script src="node_modules/tether/dist/js/tether.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script>
+
+
         $(document).ready(function () {
-            $("#mycarousel").carousel({
-                interval: 2000
-            });
+            $("#mycarousel").carousel(
+                {
+                    interval: 2000
+                }
+            );
+
             $("#carousel-button").click(function () {
                 if ($("#carousel-button").children("span").hasClass('fa-pause')) {
                     $("#mycarousel").carousel('pause');
