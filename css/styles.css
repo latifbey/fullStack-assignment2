@@ -54,3 +54,12 @@ body {
   position: absolute;
   bottom: 0px;
 }
+.carousel-indicators li{
+  border-radius: 5px !important;
+  width:10px !important;
+  height:10px !important;
+  max-height: 10px; 
+  max-width: 10px;
+  background: transparent;
+  border: 1px solid white;
+}
