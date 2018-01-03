@@ -18,3 +18,20 @@
                 }
             });
         });
+        $(document).ready(function(){
+            $("#loginButton").click(function(){
+                $("#loginModal").modal("show");
+                $("#cancell").click(function(){
+                $("#loginModal").modal("hide"); 
+                })
+            });
+
+            });
+            $(document).ready(function(){
+                $("#reserveButton").click(function(){
+                    $("#reserveModal").modal("show");
+                    $("#cancel").click(function(){
+                    $("#reserveModal").modal("hide");
+                    });
+                });
+            });
