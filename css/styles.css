@@ -60,3 +60,19 @@ body {
   right: 0px;
   position: absolute;
   bottom: 0px; }
+
+#loginModal .modal-header {
+  background: #512DA8;
+  color: white; }
+
+#loginModal .modal-body {
+  background: #D1C4E9; }
+
+#loginModal .modal-footer {
+  background: #9575CD; }
+
+#reserveModal .modal-header {
+  background: #512DA8; }
+
+#reserveModal .modal-body {
+  background: #D1C4E9; }

@@ -81,5 +81,24 @@ body{
     position: absolute;
     bottom: 0px;
 }
-
+#loginModal {
+    .modal-header{
+        background: $background-dark;
+        color: white;
+    }
+    .modal-body {
+        background: $background-pale;
+    }
+    .modal-footer {
+        background: $background-light;
+    }
+}
+#reserveModal {
+    .modal-header {
+        background: $background-dark;
+    }
+    .modal-body {
+        background: $background-pale;
+    }
+}
 
