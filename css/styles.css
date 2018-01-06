@@ -63,7 +63,7 @@ body {
 
 #loginModal .modal-header {
   background: #512DA8;
-  color: white; }
+  color: floralwhite; }
 
 #loginModal .modal-body {
   background: #D1C4E9; }
@@ -72,7 +72,8 @@ body {
   background: #9575CD; }
 
 #reserveModal .modal-header {
-  background: #512DA8; }
+  background: #512DA8;
+  color: floralwhite; }
 
 #reserveModal .modal-body {
   background: #D1C4E9; }
